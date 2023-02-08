@@ -14,9 +14,17 @@ export const Writing = () => {
         >
           <li>
             <Article
+              link="https://blockchain.capital/a-developers-guide-to-the-zkgalaxy/"
+              title="The Developer's Guide to the zkGalaxy"
+              description="Living document with an overview of the latest developer tools for working with zk."
+              date="2023-02-08"
+            />
+          </li>
+          <li>
+            <Article
               link="https://medium.com/p/73f874cfa9a5"
               title="Power of predicates"
-              description="Technical deep dive into predicates and why this design is interesting for account abstraction implementation"
+              description="Technical deep dive into predicates and why this design is interesting for account abstraction implementation."
               date="2023-01-18"
             />
           </li>
