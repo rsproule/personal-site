@@ -14,6 +14,14 @@ export const Projects = () => {
         >
           <li>
             <Article
+              link="projects/ethmail"
+              title="EthMail"
+              description="Send physical mail driven by blockchain events. Collab with sragss. "
+              date="2023-02-18"
+            />
+          </li>
+          <li>
+            <Article
               link="https://github.com/BlockchainCap/fuel-order-book"
               title="fuel-order-book"
               description="Order book implementation using predicates on fuel"
