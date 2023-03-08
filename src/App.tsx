@@ -14,7 +14,7 @@ function App() {
           <Route index element={<Homepage />} />
           <Route path="writing" element={<Writing />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="projects/ethmail" element={<EthMail/>} />
+          <Route path="projects/eps" element={<EthMail/>} />
           <Route path="*" element={<>404 this don't exist, mang</>} />
         </Route>
       </Routes>

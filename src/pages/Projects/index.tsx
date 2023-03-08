@@ -14,8 +14,8 @@ export const Projects = () => {
         >
           <li>
             <Article
-              link="projects/ethmail"
-              title="EthMail"
+              link="projects/eps"
+              title="Ethereum Postal Service"
               description="Send physical mail driven by blockchain events. Collab with sragss. "
               date="2023-02-18"
             />

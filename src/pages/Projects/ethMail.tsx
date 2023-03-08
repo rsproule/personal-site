@@ -1,18 +1,24 @@
-import React from "react";
+import { EPSWidget } from "eps-widget";
 
-const EthMail = () => {
+const EthereumPostalService = () => {
+  let a = {
+    addressLine1:
+      "0493ade4b0006524cbe06243e52b830652bbc8c4ca249ba974ffe12a1a60e67d4391f612890196ea1b725c1da097b0dd79e8cefe75a0c5e4f799f37cd657632add168d64d2c33bedcd68a5b5375736005152aeecc8b7292182b9695a124cb38a6c3de51dd1511fbc9586564a",
+    addressLine2:
+      "0437cc2fbd8144f10673cad3b3d5be9dd082111e81b21cea92214a12294ff16e060e3036370ef6aacc21a8fc8ed1e9c523a31b21246e2914954a9bd5a303b042267157861917497c58e3f84578e22f6fb635f1e3c2e777da4d8382efe2b38ee3e3",
+    city: "048896e158283c772501083f818aeac095944644f75fa72f563c6c3ebd6e04304009677bd16c7f297116d6e79174c8454d7d7dfde3bfbe87257ac33a336d66ae4a07a243e12f5ff401dfd9b158afa2a62e464167ed5a821ab24c7a51f18af433079b678dd8f4d9580d3110f775e0",
+    countryCode:
+      "0431b64fa9a07d9debce73e59b6b63688d481e27678087ac5925425f3248f99fc22a1f40b4558443cf4960703ae9218a58ac860e84f6f91b8eb15ea2d1c72208f66ff9dce3caa784f5fb5c36f13870af59c746c2e216da498c8f7c1cc18d0896a2919d",
+    postalOrZip:
+      "04bec4e85ffff2010b16effa65c69c1ec623ba27b494b574a2753a29e9b0b9f72173cc11a090a58717775af7fe0ac11d3d41414091e14bbb4394ffdc69767f44ae5acc002d9241fdb2dcce36164a9660276856e6b8a932d7d223ee9c6f7b8096868de6d71482",
+    name: "047aa73d9d134cbeea3156fce75c4758ef1247ec85ffbbc9ccc167a86f31b6b8e55db7c8fde7d61d93ede2a0a1eb89d1a08fa28b50c544499c64c8cafa7a0015f9e98bdcde7a6e5987b78763746a4f2c484cadad57e34fa6d457a0b681321c89bebb2bcbc76caf9659abc9a94f",
+  };
   return (
     <div>
-      Try EthMail or embed in your own frontend:
-      <iframe
-        id="ethmail-frame"
-        title="EthMail"
-        src="https://ethmail-431da.web.app/"
-        width="100%"
-        height="1000"
-        frameBorder="0"
-      ></iframe>
+      Try out EPS! Send me some mail:
+      (this will actually send a physical letter to my house)
+      <EPSWidget encryptedDestination={a}></EPSWidget>
     </div>
   );
 };
-export default EthMail;
+export default EthereumPostalService;
