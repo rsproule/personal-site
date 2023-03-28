@@ -49,7 +49,23 @@ export const Homepage = () => {
       </div>
 
       {snake ? (
-        <Snake />
+        <div
+          style={{
+            marginTop: "5rem",
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <div
+            style={{
+              marginTop: "5rem",
+              width: "100vh",
+            }}
+          >
+            <Snake percentageWidth={80} />
+          </div>
+        </div>
       ) : (
         <div
           style={{
@@ -59,7 +75,7 @@ export const Homepage = () => {
             justifyContent: "center",
           }}
         >
-          <button onClick={() => setSnake(true)}>snek</button>
+          <p onClick={() => setSnake(true)}>snek</p>
         </div>
       )}
     </div>
