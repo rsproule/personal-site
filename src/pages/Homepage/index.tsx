@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+//@ts-ignore
+import Snake from "react-simple-snake";
 
 export const Homepage = () => {
+  const [snake, setSnake] = useState<boolean>(false);
   return (
     <div
       style={{
@@ -43,6 +47,21 @@ export const Homepage = () => {
           </li>
         </ul>
       </div>
+
+      {snake ? (
+        <Snake />
+      ) : (
+        <div
+          style={{
+            marginTop: "5rem",
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <button onClick={() => setSnake(true)}>snek</button>
+        </div>
+      )}
     </div>
   );
 };
