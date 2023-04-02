@@ -14,6 +14,14 @@ export const Projects = () => {
         >
           <li>
             <Article
+              link="https://github.com/rsproule/n-per-epoch"
+              title="n-per-epoch"
+              description="Privacy preserving smart contract rate limiting modifier."
+              date="2023-03-31"
+            />
+          </li>
+          <li>
+            <Article
               link="projects/eps"
               title="Ethereum Postal Service"
               description="Send physical mail driven by blockchain events. Collab with sragss. "
