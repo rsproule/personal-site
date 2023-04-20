@@ -14,6 +14,14 @@ export const Writing = () => {
         >
           <li>
             <Article
+              link="https://www.youtube.com/watch?v=vLhnNVdRGfE"
+              title="Account Abstraction Panel at Layer 2 Day in Denver"
+              description="Panel discussion on account abstraction with @tarunchitra, @gluk64, and @wjvill at Layer 2 Day in Denver."
+              date="2023-03-28"
+            />
+          </li>
+          <li>
+            <Article
               link="https://blockchain.capital/a-developers-guide-to-the-zkgalaxy/"
               title="The Developer's Guide to the zkGalaxy"
               description="Living document with an overview of the latest developer tools for working with zk."
