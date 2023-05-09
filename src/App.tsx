@@ -7,7 +7,7 @@ import EthMail from "./pages/Projects/ethMail";
 
 function App() {
   return (
-    <div style={{fontFamily: "monospace", fontSize: "1rem"}}>
+    <div style={{fontFamily: "BerkeleyMono-Regular", fontSize: "1rem"}}>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>

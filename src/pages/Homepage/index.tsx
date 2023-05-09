@@ -6,11 +6,7 @@ import Snake from "react-simple-snake";
 export const Homepage = () => {
   const [snake, setSnake] = useState<boolean>(false);
   return (
-    <div
-      style={{
-        fontFamily: "monospace",
-      }}
-    >
+    <div>
       <div
         style={{
           display: "flex",

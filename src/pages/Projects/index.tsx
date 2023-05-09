@@ -14,6 +14,14 @@ export const Projects = () => {
         >
           <li>
             <Article
+              link="https://github.com/rsproule/zk-sentiment"
+              title="zk-sentiment"
+              description="Proof of sentiment in zero knowledge."
+              date="2023-04-27"
+            />
+          </li>
+          <li>
+            <Article
               link="https://github.com/rsproule/n-per-epoch"
               title="n-per-epoch"
               description="Privacy preserving smart contract rate limiting modifier."
@@ -62,7 +70,7 @@ export const Projects = () => {
           </li>
           <li>
             <Article
-              link="https://github.com/rsproule/ens-searcher"
+              link="https://github.com/BlockchainCap/node-provider-benchmark"
               title="node-benchmark"
               description="Template for benchmarking arbitrary RPC calls against multiple providers."
               date="2022-03-25"
