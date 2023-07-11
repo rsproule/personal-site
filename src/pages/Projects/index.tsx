@@ -14,6 +14,22 @@ export const Projects = () => {
         >
           <li>
             <Article
+              link="https://github.com/rsproule/tanks"
+              title="Tank turn tactics"
+              description="An on-chain PvP strategy game."
+              date="2023-07-11"
+            />
+          </li>
+          <li>
+            <Article
+              link="https://github.com/rsproule/gotcha"
+              title="gotcha"
+              description="Rust based ETH transaction crawler to trace flow of funds in 3D."
+              date="2023-06-27"
+            />
+          </li>
+          <li>
+            <Article
               link="https://github.com/rsproule/zk-sentiment"
               title="zk-sentiment"
               description="Proof of sentiment in zero knowledge."

@@ -1,10 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-//@ts-ignore
-import Snake from "react-simple-snake";
 
 export const Homepage = () => {
-  const [snake, setSnake] = useState<boolean>(false);
   return (
     <div>
       <div
@@ -43,37 +39,6 @@ export const Homepage = () => {
           </li>
         </ul>
       </div>
-
-      {snake ? (
-        <div
-          style={{
-            marginTop: "5rem",
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <div
-            style={{
-              marginTop: "5rem",
-              width: "100vh",
-            }}
-          >
-            <Snake percentageWidth={80} />
-          </div>
-        </div>
-      ) : (
-        <div
-          style={{
-            marginTop: "5rem",
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <p onClick={() => setSnake(true)}>snek</p>
-        </div>
-      )}
     </div>
   );
 };
