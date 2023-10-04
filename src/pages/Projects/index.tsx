@@ -15,7 +15,7 @@ export const Projects = () => {
           <li>
             <Article
               link="https://github.com/rsproule/tanks"
-              title="Tank turn tactics"
+              title="Tact"
               description="An on-chain PvP strategy game."
               date="2023-07-11"
             />
