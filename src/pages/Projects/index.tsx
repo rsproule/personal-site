@@ -14,6 +14,14 @@ export const Projects = () => {
         >
           <li>
             <Article
+              link="https://github.com/rsproule/super-spreader"
+              title="Farcaster Super Spreader"
+              description="A farcaster frame based game where users work to spread or kill a virtual virus."
+              date="2024-01-25"
+            />
+          </li>
+          <li>
+            <Article
               link="https://github.com/rsproule/tanks"
               title="Tact"
               description="An on-chain PvP strategy game."
