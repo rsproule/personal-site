@@ -32,7 +32,7 @@ export const Homepage = () => {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="https://twitter.com/sproule_">Twitter</a>
+            <a href="https://twitter.com/ryanfsproule">Twitter</a>
           </li>
           <li>
             <a href="https://github.com/rsproule">Github</a>
