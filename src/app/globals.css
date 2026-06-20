@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "BerkeleyMono-Regular";
+  src: url("/font/BerkeleyMono-Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: "BerkeleyMono-Regular", monospace;
+  font-size: 1rem;
+}
