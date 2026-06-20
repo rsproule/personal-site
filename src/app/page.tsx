@@ -1,35 +1,78 @@
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Homepage() {
   return (
-    <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <h1>Ryan Sproule</h1>
-      </div>
+    <>
+      <h1 className="mb-4 text-base font-semibold leading-6">Ryan Sproule</h1>
 
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <p>
-          Software engineer slash venture investor with deep interest in
-          distributed systems and applied cryptography... among other things.
-        </p>
-      </div>
-
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <ul style={{ listStyleType: "none", padding: 0, margin: 0 }}>
+      <nav aria-label="Primary">
+        <ul className="space-y-1">
           <li>
-            <Link href="/writing">Writing</Link>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <Link href="/about">About</Link>
+            </Button>
           </li>
           <li>
-            <Link href="/projects">Projects</Link>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <Link href="/writing">Writing</Link>
+            </Button>
           </li>
           <li>
-            <a href="https://twitter.com/ryanfsproule">Twitter</a>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <Link href="/projects">Projects</Link>
+            </Button>
           </li>
           <li>
-            <a href="https://github.com/rsproule">Github</a>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <Link href="/books">Books</Link>
+            </Button>
+          </li>
+          <li>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <Link href="/films">Films</Link>
+            </Button>
+          </li>
+          <li>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <a href="https://twitter.com/rsproule">Twitter</a>
+            </Button>
+          </li>
+          <li>
+            <Button
+              asChild
+              variant="link"
+              className="h-auto p-0 font-mono text-base font-normal leading-6"
+            >
+              <a href="https://github.com/rsproule">Github</a>
+            </Button>
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </>
   );
 }
