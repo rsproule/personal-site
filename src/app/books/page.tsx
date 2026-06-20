@@ -18,6 +18,18 @@ const books: SimpleListItem[] = [
     credit: "Dan Simmons",
     description: "Canterbury tales style but incredible sci-fi world building",
   },
+  {
+    title: "Red Rising",
+    credit: "Pierce Brown",
+    description:
+      "Extremely entertaining, decently written heroic sci-fi action.",
+  },
+  {
+    title: "The Will of the Many",
+    credit: "James Islington",
+    description:
+      "Pretty much like hunger games but grounded magic/sci fi system",
+  },
 ];
 
 export default function Books() {
