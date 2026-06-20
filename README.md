@@ -51,7 +51,7 @@ Discovery endpoints:
 - `GET /.well-known/x402`
 - `GET /llms.txt`
 
-Required Vercel environment variables are listed in `.env.example`. `EVM_PAYEE_ADDRESS`, `MPP_OPERATOR_KEY`, and `MPP_SECRET_KEY` have been generated in the ignored local `.env.local`; copy those values into Vercel. `CDP_API_KEY_ID` and `CDP_API_KEY_SECRET` must come from Coinbase Developer Platform before x402 payments can verify.
+Required Vercel environment variables are listed in `.env.example`. `EVM_PAYEE_ADDRESS` and `MPP_SECRET_KEY` have been generated in the ignored local `.env.local`; copy those values into Vercel. Do not set `MPP_OPERATOR_KEY` unless a route later uses MPP session or metered billing. `CDP_API_KEY_ID` and `CDP_API_KEY_SECRET` must come from Coinbase Developer Platform before x402 payments can verify.
 
 For Resend, verify a sending domain such as `mail.ryansproule.com`, then set `RESEND_FROM_EMAIL` to a sender on that verified domain, for example `RFS PAID Agent Mail <agent@mail.ryansproule.com>`.
 
