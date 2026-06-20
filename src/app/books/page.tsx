@@ -30,6 +30,11 @@ const books: SimpleListItem[] = [
     description:
       "Pretty much like hunger games but grounded magic/sci fi system",
   },
+  {
+    title: "Daemon",
+    credit: "Daniel Suarez",
+    description: "A dead guy's agent takes over the world.",
+  },
 ];
 
 export default function Books() {
