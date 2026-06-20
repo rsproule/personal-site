@@ -17,7 +17,8 @@ const projects = [
   {
     link: "https://github.com/rsproule/gotcha",
     title: "gotcha",
-    description: "Rust based ETH transaction crawler to trace flow of funds in 3D.",
+    description:
+      "Rust based ETH transaction crawler to trace flow of funds in 3D.",
     date: "2023-06-27",
   },
   {

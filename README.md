@@ -5,16 +5,25 @@ Very basic personal site. Holds links to relevant stuff.
 ## Development
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
+```
+
+Useful checks:
+
+```bash
+pnpm format
+pnpm lint
+pnpm typecheck
+pnpm check
 ```
 
 ## Deploy
 
 This is a standard Next.js app. Import `github.com/rsproule/personal-site` into Vercel and leave framework detection on Next.js. Vercel will use:
 
-- install: `npm install`
-- build: `npm run build`
+- install: `pnpm install`
+- build: `pnpm build`
 - output: `.next`
 
 Git pushes should then create preview deployments, and pushes to `master` should deploy production.
